@@ -15,9 +15,6 @@ Overall rating of the projects: 114% (bonus points thanks to optional assignment
 
 #
 
-<br/><br/>  
-<br/><br/>  
-
 ## Project 1: Understanding Multimodal Driving Data
 The goal of the first project is to visualize the outputs of common autonomous driving tasks such as 3D object detection and point cloud semantic segmentation given a LiDAR point cloud, the corresponding RGB camera image, the ground truth semantic labels and the network bounding box predictions.  
   
@@ -29,7 +26,6 @@ Further info: [Assignment_Project1.pdf](Project1_Understanding_Multimodal_Drivin
 <img height=250 src="https://user-images.githubusercontent.com/79461707/139320268-0e07f613-a7d2-4919-b8ab-6c22c8054f14.png"/>
 </p>
   
-<br/><br/>  
 <br/><br/>  
 
 ## Project 2: Multi-task learning for semantics and depth
@@ -43,7 +39,6 @@ Further info: [Assignment_Project2.pdf](Project2_Multitask_learning_for_semantic
 <img height=300 src="https://user-images.githubusercontent.com/79461707/139322864-12a3f909-8474-480e-8ed3-1cf57c369fe5.png"/>
 </p>  
 
-<br/><br/>  
 <br/><br/>  
 
 
