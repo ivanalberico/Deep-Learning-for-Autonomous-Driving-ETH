@@ -1,13 +1,13 @@
 # Deep Learning for Autonomous Driving
+This repository DOES NOT contain the code of the projects but only their description. The code cannot be shared due to privacy purposes expressed by the professor of this course.
 
-Projects regarding the implementation of:
+The topics covered in the projects are the following:
 <ul>
   <li>sensor fusion of LiDAR, cameras, and IMU data;</li>
   <li>deep learning networks for semantic segmentation and depth estimation from 2D images;</li>
   <li>deep learning network for 3D object detection from point clouds.</li>
 </ul>
 
-Only the assignments are present, since the Professors asked to not share the code or the final reports.
 
 #
 
@@ -16,9 +16,9 @@ Overall rating of the projects: 114% (bonus points thanks to optional assignment
 #
 
 ## Project 1: Understanding Multimodal Driving Data
-Visualize the outputs of common autonomous driving tasks such as 3D object detection and point cloud semantic segmentation given a LiDAR point cloud, corresponding RGB camera image, ground truth semantic labels and network bounding box predictions.  
+The goal of the first project is to visualize the outputs of common autonomous driving tasks such as 3D object detection and point cloud semantic segmentation given a LiDAR point cloud, the corresponding RGB camera image, the ground truth semantic labels and the network bounding box predictions.  
   
-Moreover, identify each laser ID from the point cloud directly, and deal with the point cloud distortion caused by the vehicle motion with the aid of GPS/IMU data.  
+Additional tasks were about identifying each laser ID directly from the point cloud, and dealing with the point cloud distortion caused by the vehicle motion with the aid of GPS/IMU data.  
   
 Further info: [Assignment_Project1.pdf](Project1_Understanding_Multimodal_Driving_Data/Assignment_Project1.pdf)
 
@@ -27,9 +27,9 @@ Further info: [Assignment_Project1.pdf](Project1_Understanding_Multimodal_Drivin
 </p>
   
 ## Project 2: Multi-task learning for semantics and depth
-Build Multi-Task Learning (MTL) architectures for dense prediction tasks, i.e. semantic segmentation and monocular depth estimation, exploiting joint architectures, branched architectures, and task distillation.  
+The goal of the second project is to build Multi-Task Learning (MTL) architectures for dense prediction tasks, i.e. semantic segmentation and monocular depth estimation, exploiting joint architectures, branched architectures, and task distillation.  
   
-Finally, improve the network with personal ideas or refer to existing papers to enhance the predictions.  
+Bonus task was to improve the network with personal ideas or refer to existing papers to enhance the predictions.  
   
 Further info: [Assignment_Project2.pdf](Project2_Multitask_learning_for_semantics_and_depth/Assignment_Project2.pdf)
 
@@ -41,8 +41,8 @@ Further info: [Assignment_Project2.pdf](Project2_Multitask_learning_for_semantic
 
 <img align="right" height=140 src="https://user-images.githubusercontent.com/79461707/139320317-a9b324a4-e655-447a-996e-e0e6473b1edf.png"/>
 
-Build a 2-stage 3D object detector to detect vehicles in autonomous driving scenes, i.e. to draw 3D bounding boxes around each vehicle. 
-Unlike Project 2 which was based on 2D images, now irregular 3D point cloud data are exploited to detect vehicles.
+The goal of the third project is to build a 2-stage 3D object detector to detect vehicles in autonomous driving scenes, i.e. drawing 3D bounding boxes around each vehicle. 
+While Project 2 was based on 2D images, in this case irregular 3D point cloud data are exploited to detect vehicles.
 
 The first stage, which is often referred to as the Region Proposal Network (RPN), is used to create coarse detection results from the irregular point cloud data. These initial detections are later refined in the second stage network to generate the final predictions.  
   
